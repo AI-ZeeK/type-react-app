@@ -1,0 +1,24 @@
+.btn {
+	width: 100%;
+	border: 3px solid white;
+	background: none;
+	aspect-ratio: 1 / 1;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white !important;
+	transition: 200ms ease;
+	cursor: pointer;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus {
+	background-color: #535bf2;
+}
+.btn.active {
+	background-color: hsl(150, 100%, 50%);
+}
+
+.btn.inactive {
+	opacity: 0.3;
+}
